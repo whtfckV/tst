@@ -1,0 +1,36 @@
+.tableWrapper {
+  background-color: var(--white);
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.table {
+  width: max-content;
+  border-collapse: collapse;
+}
+
+.tableTitle {
+  padding: 10px 20px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-bottom: none;
+}
+
+.tableTitle:not(:last-child) {
+  border-right: 1px solid var(--white);
+}
+
+.tableItem {
+  padding: 7px;
+  border: 1px solid var(--grey);
+}
+
+.sorable {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  user-select: none;
+}

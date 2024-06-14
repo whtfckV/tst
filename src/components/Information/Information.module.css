@@ -1,0 +1,72 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 265px);
+  box-shadow: 3px 3px 5px var(--shadow);
+}
+
+.information.full {
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.informationHeader {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 10px 5px;
+  background-color: rgba(198, 239, 224, 0.3);
+}
+
+.earn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 10px;
+  background-color: var(--white);
+}
+
+.earnItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.calendarDisplay {
+  position: relative;
+  display: flex;
+  width: 25%;
+}
+
+.calendarInput {
+  border: 1px solid #757575;
+  border-radius: 5px;
+  padding: 3px 56px 3px 16px;
+  height: 30px;
+  width: 100%;
+  font-size: 14px;
+  color: var(--text);
+  background-color: var(--white);
+  transition: border-color .3s ease;
+}
+
+.calendarInput:focus {
+  outline: none;
+  border-color: aqua;
+}
+
+.btn {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 3px;
+  translate: 0 -50%;
+}
+
+.calendar {
+  translate: -40% 5px;
+}

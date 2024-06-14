@@ -1,0 +1,73 @@
+.menu {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px var(--shadow);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.account {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.accountBtn {
+  display: flex;
+  align-items: center;
+  padding: 22px 20px;
+  column-gap: 10px;
+  color: var(--white)
+}
+
+.accountBtn svg {
+  width: 50px;
+  height: 50px;
+}
+
+.ways {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 8px 18px;
+}
+
+
+.categories {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: var(--textLight);
+  margin-bottom: 10px;
+}
+
+.categoriesLink {
+  display: block;
+  font-weight: 500;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.category li {
+  padding-left: 10px;
+}

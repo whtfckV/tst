@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 15px;
+}
+
+.mainTitle {
+  position: absolute;
+  left: -200%;
+  top: -150%;
+}

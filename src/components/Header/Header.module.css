@@ -1,0 +1,80 @@
+.header {
+  background-color: var(--white);
+  filter: drop-shadow(5px 0 5px var(--shadow));
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: auto;
+  border-radius: 100px;
+  padding: 5px;
+  transition: background-color .3s ease;
+}
+
+.btn:hover {
+  background-color: var(--grey);
+}
+
+.btn:focus {
+  outline: none;
+  background-color: var(--grey);
+}
+
+.userPanel {
+  padding: 20px 15px;
+  border-left: 1px var(--grey) solid;
+  border-right: 1px var(--grey) solid;
+  background-color: #ebebeb;
+  transition: background-color .3s ease;
+}
+
+.userPanel:hover {
+  background-color: #dadada;
+}
+
+.userPanel:focus-within {
+  background-color: #dadada;
+}
+
+.userBtn {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-weight: 600;
+}
+
+.userBtn:focus {
+  outline: none;
+}
+
+.userBtn svg {
+  width: 40px;
+  height: 40px;
+}
+
+.exit {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 5px;
+  border-radius: 100px;
+  transition: background-color .3s ease;
+}
+
+.exit:hover {
+  background-color: var(--grey);
+}
+
+.exit:focus {
+  outline: none;
+  background-color: var(--grey);
+}
